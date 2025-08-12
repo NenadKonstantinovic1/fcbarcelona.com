@@ -1,0 +1,264 @@
+body {
+    font-family: "Ubuntu", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #004D98;
+}
+header {
+    background-color: #003f7e;
+    color: white;
+    padding: 3px 0;
+}
+
+#naslov {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 20px;
+}
+
+#naslov h1 {
+    font-size: 45px;
+    margin: 0 auto;
+    color:#FFCB00;
+    text-shadow: 1px 1px black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#FFCB00;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-shadow: 1px 1px black;
+}
+
+nav ul li a:hover {
+    background-color: #A50044;
+    text-shadow: 1px 1px black;
+}
+#logo{
+    width:60px;
+    height: 60px;
+    float: left;
+    transition: transform 4s ease;
+}
+#logo:hover{
+    transform: rotate(360deg);
+}
+
+.tekst{
+    text-align: center;
+    color:#FFCB00;
+}
+.tekst-jedan{
+    font-size: 30px;
+    font-weight: 700;
+    text-shadow: 1px 1px black;
+	
+}
+.tekst-dva{
+    text-shadow: 1px 1px black;
+    margin:0px auto;
+    text-align: justify;
+    width: 1170px;
+    font-size: 24px;
+	line-height:1.5;
+	padding:15px 0px;
+}
+.slike{
+    margin-top: 20px;
+    margin-bottom:10px;
+}
+.slike img{
+    width:240px;
+    height: 135px;
+    margin: 0px 50px;
+    border:#A50044 15px ridge;
+    border-radius: 15px;
+}
+.gal-slike{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+.gal-slike img{
+    display: flex;
+    justify-content:space-evenly;
+    width:240px;
+    height: 135px;
+    margin: 5px auto;
+    border:#A50044 15px ridge;
+    filter: grayscale(50%);
+    transition: filter 0.2s ease-in-out;
+    border-radius: 15px;
+}
+.gal-slike img:hover{
+    filter: grayscale(0%);
+}
+.cleaner{
+    clear: both;
+}
+.forca{
+    font-weight: 500;
+    font-size: 24px;
+    text-shadow: 1px 1px black;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+footer {
+    text-align: center;
+    background-color:#003f7e;
+    color:#FFCB00;
+    padding: 10px 0px;
+  }
+.footer-button button{
+    background-color:#FFCB00;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.footer-button button a{
+    text-decoration: none;
+    color: #000;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.copy{
+    font-weight: 700;
+    text-shadow: 1px 1px black;
+}
+.marker{
+    background-color:#A50044;
+    padding:1px 4px;
+    border-radius: 5px;
+}
+.ikonice a i{
+    font-size: 24px;
+    padding: 0px 5px;
+    color: #FFCB00;
+}
+.ikonice{
+    display:block;
+    margin-bottom: 10px;
+    text-shadow: 0.5px 0.5px black;
+}
+#forma{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#FFCB00;
+    font-weight: 500;
+	padding: 50px;
+    text-shadow: 1px 1px black;
+}
+#slika{
+    width:360px;
+    height: 300px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+#slika img {
+    border-radius: 10px; 
+    border: #A50044 15px ridge;
+    width: 90%;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; 
+    flex: 1; 
+    background-color: #A50044;
+    border-radius: 5px;
+    border:#A50044 15px ridge;
+}
+
+.forma-deo{
+    background-color: #A50044;
+    padding: 5px;
+    border-radius: 5px;
+}
+input{
+    background-color:#FFCB00;
+}
+textarea{
+    background-color: #FFCB00;
+    resize: none;
+}
+#forma button{
+    background-color: #FFCB00;
+    padding-bottom: 5px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#autor{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#autor-img img{
+    margin: 25px;
+    width: 400px;
+    height: 400px;
+    border: #A50044 15px ridge;
+    border-radius: 15px;
+}
+#autor-tekst{
+    color: #FFCB00;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    background-color: #A50044;
+    padding: 10px;
+    border-radius: 15px;
+    border: #A50044 15px ridge;
+}
+
+#tabela{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #FFCB00;
+    text-align: center;
+    margin:10px 0px;
+}
+table{
+    background-color: #003f7e;
+    border: #A50044 15px ridge;
+    border-radius: 15px;
+    width:75%;
+    text-shadow: 1px 1px black;
+}
+th,tr,td{
+    background-color:#004D98;
+    border: #003f7e 3px solid;
+    border-collapse: collapse;
+}
+#lista{
+    width:65%;
+    display: inline-block;
+    margin-right:100px ;
+    text-align: left;
+    text-shadow: 1px 1px black;
+    list-style-type:square;
+}#lista li{
+    padding:2px 0px;
+}
