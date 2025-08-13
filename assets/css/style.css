@@ -24,6 +24,11 @@ header {
     margin: 0 auto;
     color:#FFCB00;
     text-shadow: 1px 1px black;
+	transition:font-size 0.5s ease-in-out;
+}
+
+#naslov h1:hover {
+	font-size:48px;
 }
 
 nav ul {
@@ -34,27 +39,25 @@ nav ul {
 }
 
 nav ul li a {
+	font-size:20px;
     text-decoration: none;
     color:#FFCB00;
     font-weight: bold;
     padding: 10px 20px;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease-in-out;
+    transition: font-size 0.5s ease-in-out;
     text-shadow: 1px 1px black;
 }
 
 nav ul li a:hover {
     background-color: #A50044;
-    text-shadow: 1px 1px black;
+	font-size:21px;
 }
 #logo{
     width:60px;
     height: 60px;
     float: left;
-    transition: transform 4s ease;
-}
-#logo:hover{
-    transform: rotate(360deg);
 }
 
 .tekst{
@@ -83,7 +86,7 @@ nav ul li a:hover {
 .slike img{
     width:240px;
     height: 135px;
-    margin: 0px 50px;
+    margin: 0px 70px;
     border:#A50044 15px ridge;
     border-radius: 15px;
 }
@@ -96,8 +99,8 @@ nav ul li a:hover {
 .gal-slike img{
     display: flex;
     justify-content:space-evenly;
-    width:240px;
-    height: 135px;
+    width:360px;
+    height:200px;
     margin: 5px auto;
     border:#A50044 15px ridge;
     filter: grayscale(50%);
@@ -144,7 +147,7 @@ footer {
     border-radius: 5px;
 }
 .ikonice a i{
-    font-size: 24px;
+    font-size:24px;
     padding: 0px 5px;
     color: #FFCB00;
 }
